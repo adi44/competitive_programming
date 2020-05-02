@@ -4,7 +4,9 @@ import java.util.*;
 Here we need to find the maximum sum of the subarray. in order to find the maximum sum of the sub array
 we will use the kandere's algorithm. According to this algorithm, we will take sum as the initial element of the array.
 once we will take the initial element of array. we will sum with its next element. if the sum would be more than the current element we will continue taking sum
-else we will put the value of current sum as the current element. here we are doing this because we need to calculate the sum of next subarray if current elment is greater than the sum after adding it to the sum. which means if the sum is getting less after adding current element, then we need to calculate sum of new subarray.*/
+else we will put the value of current sum as the current element. 
+here we are doing this because we need to calculate the sum of next subarray if current elment is greater than the sum after adding it to the sum. 
+which means if the sum is getting less after adding current element, then we need to calculate sum of new subarray.*/
 
 
 class maximum_subarray_sum{
